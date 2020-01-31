@@ -185,23 +185,27 @@ body {
 
 @-webkit-keyframes slide-in {
   0% {
-    -webkit-transform: translateX(-200rem);
-            transform: translateX(-200rem);
+    -webkit-transform: translateY(-200rem) scale(0.01, 0.01);
+            transform: translateY(-200rem) scale(0.01, 0.01);
+    color: blue;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateY(0) scale(1, 1);
+            transform: translateY(0) scale(1, 1);
+    color: white;
   }
 }
 
 @keyframes slide-in {
   0% {
-    -webkit-transform: translateX(-200rem);
-            transform: translateX(-200rem);
+    -webkit-transform: translateY(-200rem) scale(0.01, 0.01);
+            transform: translateY(-200rem) scale(0.01, 0.01);
+    color: blue;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateY(0) scale(1, 1);
+            transform: translateY(0) scale(1, 1);
+    color: white;
   }
 }
 /*# sourceMappingURL=main.css.map */
